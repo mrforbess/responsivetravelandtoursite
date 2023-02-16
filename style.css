@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+
+:root{
+    --main-color:#8e44ad;
+    --black:#222;
+    --white:#222;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0,0.7);
+    --light-bg:#eee;
+    --border:0.1rem solid var(var(--black));
+    --box-shadow:0.5rem 1rem rgba(0,0,0,0.1);
+    --text-shadow:0 1.5rem 3 rem rgba(0,0,0,0.1);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
